@@ -1,0 +1,345 @@
+body{
+    margin: 2em; 
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:lightgoldenrodyellow;
+    color:sienna;
+    
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-right: 100px;
+    
+}
+.intro img{
+    border: 2px solid lightblue;
+    border-radius: 40%;
+}
+.intro h1{
+    margin-right: 100px; 
+    
+}
+.city{
+    height: fit-content;
+}
+ .city img{
+    margin-right: 30px;  
+    /* border: 2px solid black;  */
+    object-fit: contain;
+} 
+.cityDescription{  
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 80%;
+ }  
+.cityDescription p{ 
+  color: black;
+  margin-top: 2px;
+    
+}  
+table, th, td{
+    width: 700px;
+    color:red;
+    border-collapse: collapse;
+    font-style: italic;
+    font-family: cursive;
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 1px solid black;
+    padding: 10px;  
+}
+th{
+    /* height: 50px; */
+    color: grey;
+}
+
+.foreign{
+    max-width: 90%; 
+    /* height: 500px; */
+}
+.foreign p{
+    color: black;
+}
+.foreign h2{
+    text-align: center;
+}
+
+ .historicalPlaces img{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    width: 120px;
+    height: 242px;
+    object-fit: cover;
+
+}
+ .historicalPlaces{
+     display: flex; 
+     padding-top: 1px; 
+     /* position: relative; */
+} 
+
+.historicalPlaces h3{
+    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:monospace;
+    font-style: oblique;
+    font-size: 20px;
+
+}
+.historical h2{
+    text-align:center;
+    text-indent: -150px; 
+
+}
+.historicalPlaces p{
+   color: black;
+   padding-left: 5px;
+   
+}
+.left{
+ float: right; 
+}
+.right{
+    float: right; 
+
+}
+.footer{
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: chocolate;
+    color: black;
+    text-align: center;
+}
+.navbar {
+    margin-top: 400px;
+    width: 79%;
+    background-color:chocolate;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+ 
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 48%;
+    text-align: center; 
+  }
+  
+  
+  .navbar a:hover {
+    background-color:coral;
+  }
+  .pictures_landing{
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 30%;
+}
+.pictures_landing img{
+    height: 302px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 70px;
+}
+h1.landing {
+    margin-left: 700px;
+
+}
+/* .landing_page{
+    background-color:red;
+    font-size: larger;
+    color: black;
+    padding: 100px 125px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+} */
+
+
+ @media screen and (max-width: 450px){
+    .intro{
+        flex-direction: column; 
+         padding-left: 100px;  
+        
+    }
+    .heading{
+        text-align: center;
+        padding-left: 100px;
+    }
+    .intro img{
+        border: 2px solid lightblue;
+     
+    }
+    .city{
+        flex-direction:column; 
+        flex-wrap: wrap;
+        height: fit-content;  
+       
+    }
+    .cityDescription{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        /* padding-bottom: 55px; */
+
+    }
+    .cityDescription p{ 
+        margin-top: 10px;
+        /* margin-bottom: 100px; */
+    }      
+    .foreign{
+        flex-direction: column; 
+        width: 100%;
+        /* height: 540px;    */
+        /* max-width: 400px; */
+        /* padding-top: 60px; */
+    }
+    .historicalPlaces{
+        flex-direction: column;
+    }
+    .historicalPlaces h3{
+        padding-left: 0px;
+    }
+    .historical h2{
+        text-align:center;
+        text-indent: 10px;
+    
+    } 
+    .place{
+        flex-wrap: wrap; 
+    }
+    /* .historicalPlaces p{
+        margin-top: 280px;
+     } */
+    table, th, td{
+        width: 30px;
+        height: 10px;
+        /* color: brown; */
+        border-collapse: collapse;
+        /* margin-left: 80px; */
+        /* padding-left: 30px; 
+        margin-right: auto; */
+        color:red;
+        font-style: italic;
+        font-family: cursive;  
+    }
+    th{
+        /* height: 50px; */
+        color: grey;
+    }
+    .left{
+        float: left; 
+    
+    }
+    .right{
+        float: left; 
+        
+    }
+    .navbar a {
+        float: none;
+        display: block;
+        width: 20%; 
+        text-align: left; 
+      }
+      
+}
+    @media (max-width: 768px){
+        .intro{
+            flex-direction: column; 
+             padding-left: 100px;  
+            
+        }
+        .heading{
+            text-align: center;
+            padding-left: 100px;
+        }
+        .city{
+            height: fit-content;
+            
+        } 
+        .cityDescription{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            
+        }
+        .cityDescription p{ 
+            margin-top: 15px;
+        } 
+        .foreign{
+            width: 100%;
+            height: fit-content;
+        }
+        
+        table, th, td{
+            width: 210px;
+            height: 10px;
+            color: brown;
+            border-collapse: collapse;
+            /* margin-left: 10px; */
+            /* padding-left: 30px;  */
+            /* margin-right: auto; */ 
+            color:red;
+            font-style: italic;
+            font-family: cursive;  
+        }
+         th{
+            /* height: 50px; */
+            color: grey;
+            
+        }
+        .historicalPlaces{
+            flex-direction: column;  
+        }
+        .historicalPlaces img{
+            padding-left: 10px;
+            padding-right: 20px;
+        
+        }
+        .historical h2{
+            text-align:center;
+            text-indent: 10px;
+        
+        } 
+        .place{
+            flex-wrap: wrap; 
+        }
+      
+       
+         .left{
+            float: left; 
+        
+        }
+        .right{
+            float: left; 
+    
+        }
+        .navbar a {
+            float: left;
+            padding: 12px;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            width: 35%; 
+            text-align: center; 
+          }
+          .pictures_landing{
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 11%;
+            padding-right: 3%;
+        }
+         
+}  
