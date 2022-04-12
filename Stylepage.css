@@ -119,7 +119,7 @@ th{
 }
 .navbar {
     margin-top: 400px;
-    width: 79%;
+    width: 100%;
     background-color:chocolate;
     overflow: auto;
     margin-left: auto;
@@ -158,16 +158,7 @@ h1.landing {
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
-/* .landing_page{
-    background-color:red;
-    font-size: larger;
-    color: black;
-    padding: 100px 125px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
 
-} */
 
 
  @media screen and (max-width: 450px){
@@ -194,19 +185,17 @@ h1.landing {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        /* padding-bottom: 55px; */
+       
 
     }
     .cityDescription p{ 
         margin-top: 10px;
-        /* margin-bottom: 100px; */
+       
     }      
     .foreign{
         flex-direction: column; 
         width: 100%;
-        /* height: 540px;    */
-        /* max-width: 400px; */
-        /* padding-top: 60px; */
+       
     }
     .historicalPlaces{
         flex-direction: column;
@@ -222,23 +211,17 @@ h1.landing {
     .place{
         flex-wrap: wrap; 
     }
-    /* .historicalPlaces p{
-        margin-top: 280px;
-     } */
+    
     table, th, td{
         width: 30px;
         height: 10px;
-        /* color: brown; */
         border-collapse: collapse;
-        /* margin-left: 80px; */
-        /* padding-left: 30px; 
-        margin-right: auto; */
         color:red;
         font-style: italic;
         font-family: cursive;  
     }
     th{
-        /* height: 50px; */
+        
         color: grey;
     }
     .left{
